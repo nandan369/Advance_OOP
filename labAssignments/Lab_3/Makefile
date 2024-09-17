@@ -5,6 +5,9 @@ FLAGS = -Wall -std=c++20      # Compiler flags: -Wall enables all warnings, and 
 SOURCE = $(wildcard *.cpp)    # Finds all .cpp source files in the current directory
 TARGET = expense_calculator   # The name of the final executable
 
+# Default target: Compile the project into an executable
+all: $(TARGET)
+
 # Target: Link the object files to create the executable
 $(TARGET): $(OBJECTS)
 	$(CXX) $(FLAGS) $(OBJECTS) -o $(TARGET)
@@ -14,7 +17,7 @@ $(TARGET): $(OBJECTS)
 	$(CXX) -c $< -o $@
 
 # Target: Compile and run the program
-run: $(TARGET)
+run: all
 	./$(TARGET)
 
 # Target: Display the list of source files (useful for debugging or checking sources)
