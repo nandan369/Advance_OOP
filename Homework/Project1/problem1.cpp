@@ -3,6 +3,7 @@
  * --------------------------------------------------------
  * This program corrects typing errors by replacing each character in the input
  * string with the one immediately to its left on a standard QWERTY keyboard.
+ * -------------------------------------------------------
  */
 
 #include <iostream>
@@ -21,6 +22,7 @@ using namespace std;
  *   - If the character is found in the mapping, it is replaced with the corresponding key to its left.
  *   - If the character is not in the mapping, it is added to the output unchanged.
  * The function returns the corrected string.
+ * ---------------------------------------------------------
  */
 
 string fixTypingError(const string& input) {
@@ -45,6 +47,14 @@ string fixTypingError(const string& input) {
     }
     return decodedText; // Return the corrected input string
 }
+
+/* -------------------------------------------------------
+ * Function: Main()
+ * -------------------------------------------------------
+ * Reads a string input from the user, corrects typing errors
+ *  using fixTypingError, and outputs the corrected string.
+ * -------------------------------------------------------
+ */
 
 int main() {
     string user_input; // Variable to store user input
