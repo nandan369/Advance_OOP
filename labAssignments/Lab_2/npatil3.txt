@@ -1,0 +1,17 @@
+1. What is the difference between a local repository, and a remote repository
+-> Local repository : It's used by a single user and kept on a local device, like a computer. 
+   Users work on their projects and make modifications in local repositories.
+   Remote repositories: shared by several people and kept in a remote location, like a server. 
+   Users can work together by fetching and submitting code updates from remote repositories. (git push and git pull)
+   
+2. Explain the three states of a file in git: modified, staged, and committed
+-> modified state: when we do some changes and save a file but not commit those changes then that file will stays in modified state.
+   Staged state: When changes to files are held before they are committed to the local repository then that files statys in staged state. (git add)
+   Commited state: when changes are recored to the local repositories then those changes stays in commited state. (git commit)
+  
+3. What is a “merge conflict”?
+-> If the same code is Simultaneously changed by 2 or more developer with different branches and tries for mearge then mearge confilit will occure. 
+   Also if file is deleted by one developer while other developer is modifiying that file merge confilit can occure.
+   
+4. What command would I use to skip the staging step and commit all modified and deleted files 
+-> git commit -a -m "Your commit message"
