@@ -10,7 +10,7 @@ all: $(TARGET)
 
 # Target: Link the object files to create the executable
 $(TARGET): $(OBJECTS)
-	$(CXX) $(FLAGS) $(OBJECTS) -o $(TARGET)
+	$(CXX) $(FLAGS) $(OBJECTS) -o $(TARGET) -g
 
 # Pattern rule: Compile .cpp files into corresponding .o files
 %.o: %.cpp
