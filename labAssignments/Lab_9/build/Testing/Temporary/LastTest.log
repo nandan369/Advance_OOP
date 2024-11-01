@@ -1,0 +1,75 @@
+Start testing: Nov 01 06:35 Central Daylight Time
+----------------------------------------------------------
+1/1 Testing: Lab9_testing
+1/1 Test: Lab9_testing
+Command: "C:/Dropbox/MS_CS/Fall_sem_1/OOP/Advance_OOP/labAssignments/Lab_9/build/Lab9_testing.exe"
+Directory: C:/Dropbox/MS_CS/Fall_sem_1/OOP/Advance_OOP/labAssignments/Lab_9/build
+"Lab9_testing" start time: Nov 01 06:35 Central Daylight Time
+Output:
+----------------------------------------------------------
+Running main() from C:/Dropbox/MS_CS/Fall_sem_1/OOP/Advance_OOP/labAssignments/Lab_9/googletest/googletest/src/gtest_main.cc
+[==========] Running 24 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 24 tests from MyStringTest
+[ RUN      ] MyStringTest.DefaultConstructor
+[       OK ] MyStringTest.DefaultConstructor (0 ms)
+[ RUN      ] MyStringTest.ParameterizedConstructor
+[       OK ] MyStringTest.ParameterizedConstructor (0 ms)
+[ RUN      ] MyStringTest.CopyConstructor
+[       OK ] MyStringTest.CopyConstructor (0 ms)
+[ RUN      ] MyStringTest.Destructor
+[       OK ] MyStringTest.Destructor (0 ms)
+[ RUN      ] MyStringTest.Concatenation
+[       OK ] MyStringTest.Concatenation (0 ms)
+[ RUN      ] MyStringTest.Append
+[       OK ] MyStringTest.Append (0 ms)
+[ RUN      ] MyStringTest.Substring
+[       OK ] MyStringTest.Substring (0 ms)
+[ RUN      ] MyStringTest.SubstringInvalidIndices
+[       OK ] MyStringTest.SubstringInvalidIndices (0 ms)
+[ RUN      ] MyStringTest.ConcatenationWithEmptyString
+[       OK ] MyStringTest.ConcatenationWithEmptyString (0 ms)
+[ RUN      ] MyStringTest.LengthAfterModification
+[       OK ] MyStringTest.LengthAfterModification (0 ms)
+[ RUN      ] MyStringTest.BracketOperator
+[       OK ] MyStringTest.BracketOperator (0 ms)
+[ RUN      ] MyStringTest.BracketOperatorOutOfBounds
+[       OK ] MyStringTest.BracketOperatorOutOfBounds (0 ms)
+[ RUN      ] MyStringTest.Equality
+[       OK ] MyStringTest.Equality (0 ms)
+[ RUN      ] MyStringTest.Inequality
+[       OK ] MyStringTest.Inequality (0 ms)
+[ RUN      ] MyStringTest.Comparison
+[       OK ] MyStringTest.Comparison (0 ms)
+[ RUN      ] MyStringTest.AssignmentOperator
+[       OK ] MyStringTest.AssignmentOperator (0 ms)
+[ RUN      ] MyStringTest.ChainedOperations
+[       OK ] MyStringTest.ChainedOperations (0 ms)
+[ RUN      ] MyStringTest.CopyFromNullPointer
+[       OK ] MyStringTest.CopyFromNullPointer (0 ms)
+[ RUN      ] MyStringTest.SubstringNegativeStartIndex
+[       OK ] MyStringTest.SubstringNegativeStartIndex (0 ms)
+[ RUN      ] MyStringTest.LengthOfNullPointer
+[       OK ] MyStringTest.LengthOfNullPointer (0 ms)
+[ RUN      ] MyStringTest.InvalidConcatenation
+[       OK ] MyStringTest.InvalidConcatenation (0 ms)
+[ RUN      ] MyStringTest.BracketOperatorOutOfBoundsNegative
+[       OK ] MyStringTest.BracketOperatorOutOfBoundsNegative (0 ms)
+[ RUN      ] MyStringTest.SelfAssignmentInCopyConstructor
+[       OK ] MyStringTest.SelfAssignmentInCopyConstructor (0 ms)
+[ RUN      ] MyStringTest.LargeString
+[       OK ] MyStringTest.LargeString (0 ms)
+[----------] 24 tests from MyStringTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 24 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 24 tests.
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Passed.
+"Lab9_testing" end time: Nov 01 06:35 Central Daylight Time
+"Lab9_testing" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 01 06:35 Central Daylight Time
